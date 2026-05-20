@@ -65,7 +65,7 @@ if(function_base[i]==0x4c &&
 
 
 int main(int argc,char**argv){
-   BYTE*base=(BYTE*)GetModuleBase();  // this must be replaced with direct retrievieng of dllbase via PEB frrom cpu registers
+   BYTE*base=(BYTE*)GetModuleBase(); 
    if(base){
     printf("[+] ntdll base addr\n");
    }
